@@ -1,0 +1,18 @@
+cd /data/aws/
+pname="DAXINGOUTJICHANG"
+box="441450.2686 4378430.2148 457481.5186 4367539.5898"
+index="T50SMJ_2017"
+sh merger_cut.sh ${index} ${pname} "${box}"
+sh batch_jobs_${pname}.sh
+
+index="T50SMJ_2018"
+sh merger_cut.sh ${index} ${pname} "${box}"
+sh batch_jobs_${pname}.sh
+
+index="T50SMJ_2019"
+sh merger_cut.sh ${index} ${pname} "${box}"
+sh batch_jobs_${pname}.sh
+
+cd /data/aws/beijing/OUT/clip
+
+convert -delay 10 DAXINGOUTJICHANG/*2016*.tif -loop 0 DAXINGOUTJICHANG_2016.gif
