@@ -1,0 +1,7 @@
+https://www.gearthblog.com/blog/archives/2016/08/animating-sentinel-2-imagery-google-earth.html
+https://www.gearthblog.com/blog/archives/2016/08/quickly-preview-latest-sentinel-imagery.html
+https://www.gearthblog.com/blog/archives/2016/08/sentinel-imagery-coverage.html
+
+https://www.gearthblog.com/wp-content/uploads/2017/07/Sentinel-2-Latest.kml
+https://www.gearthblog.com/wp-content/uploads/2016/08/Sentinel-imagery-Coverage.kmz
+https://www.gearthblog.com/wp-content/uploads/2016/08/Landsat-imagery-color-coded.kmz
